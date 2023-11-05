@@ -35,12 +35,12 @@ mov ah,01h
 int 021h   
 ;Isi register BH dengan nilai register AL
 mov bh,al
-;Nilai Ah adalah sama dengan 10d
+;Contoh jika yang diinput adalah "A"
+;Nilai A hexa adalah sama dengan 10 desimal
 ;Mencetak angka 10 adalah dengan cara mencetak angka 1 dan angka 0
 ;Huruf "A" harus berubah menjadi angka nol
 ;Huruf "A" adalah bernilai 41h dan angka "0" bernilai 30h
-;Maka 41h - X = 30h
-;Maka X adalah 11h
+;Maka 41h - X = 30h 
 
 comment !
     41h (karakter "A") = 65d
@@ -48,7 +48,10 @@ comment !
     65d - 48d = 17d
     17d adalah sama dengan 11h
 !
-  
+
+;Maka X adalah 11h
+
+
 ;Isi register AL dikurang 11h       
 sub al,011h
 ;Pindahkan isi register AL ke BL

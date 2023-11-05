@@ -6,6 +6,9 @@ org 100h
 
 jmp mulai
 ;Deklarasi variable byte
+;ASCII carriage return (CR) is a control character in the ASCII character set 
+;   used to move the cursor to the beginning of the line in a text editor or terminal.
+;ASCII carriage return has a decimal code point of 13.  
 fungsi_enter db 13,10,"$"
 
 ; add your code here

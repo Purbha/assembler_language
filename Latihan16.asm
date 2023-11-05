@@ -6,7 +6,8 @@ org 100h
 
 ; add your code here
 ;Isi register DL dengan nilai 65d ("A")
-mov dl,65                              
+mov dl,65         
+                     
 ;Aktifkan fungsi output karakter
 mov ah,2    
 ;Interupsi DOS
