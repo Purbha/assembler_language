@@ -20,7 +20,8 @@ add dl,48
 inc dl
 
 ;Aktifkan fungsi output
-mov ah,02h             
+mov ah,02h 
+            
 ;Interupsi DOS
 int 021h
 
